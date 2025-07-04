@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Project 4</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Enter the number and confirm to generate your multiplication table.</h1>
+    </header>
+    <main>  
+        <div class="container">
+            <form id="multiplicationForm">
+                <div class="inputs">
+                    <label for="numberInput">M. Table of:</label>
+                    <input type="number" id="numberInput" placeholder="2" required>
+                </div>
+                <div class="inputs">
+                    <label for="multiplyInput">Multiply up to:</label>
+                    <input type="number" id="multiplyInput" placeholder="" required>
+                </div>
+                <button id="calculate-button" type="button">Calculate</button>
+            </form>
+        </div>
+        
+        <div id="multiplication-table-info">
+            <h2>
+                Multiplication table of: <span id="display-number"></span>
+            </h2>
+        </div>
+
+        <div class="container">
+            <div id="result-area">
+                <p id="message">Enter a number to calculate its multiplication table</p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

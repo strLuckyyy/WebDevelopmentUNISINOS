@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #fff;
+
+    background-image: linear-gradient(to bottom, #7E82D4, #90E2E3);
+    background-attachment: fixed;
+    background-size: 100%;
+
+    margin: 18px, auto;
+    padding: 0;
+}
+
+h1, h2{
+    margin: 35px 0px 14px 0px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-width: 300px;
+    max-width: 300px;
+
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 12px;
+    background-image: none;
+    background-color: #fff;
+}
+
+#multiplicationForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 10px auto;
+}
+
+.inputs {
+    display: inline-flex;
+    margin: 8px, auto;
+    padding: 10px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    width: 40px;
+    height: 30px;
+    margin: 5px auto;
+    padding-left: 14px;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#multiplicationForm, label, button, input, .inputs, #result, #result-area, p, div {
+    background-image: none;
+    color: #000;
+}
+
+label, p {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+button {
+    display: flex;
+    margin-bottom: 6px;
+    padding: 10px 60px;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 12px;
+    font-weight: bold;
+   
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    background-color: #333232;
+    color: #fff;
+}
+
+#result {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+}

@@ -1,0 +1,118 @@
+html {
+    background-color: #f3edf7;
+    font-family: Arial, sans-serif, Helvetica;
+    font-size: 14px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #683FBF;
+    color: #fff;
+    margin: -10px -25px;
+    padding: 5px 0px 120px 0px;
+    text-align: center;
+}
+
+.container {
+    background-color: #FCFDFC;
+    max-width: 850px;
+    width: 80%;
+    margin: -60px auto 50px auto;
+    padding: 0px 25px;
+    z-index: 1;
+}
+        
+.top-container {
+    position: relative;
+    text-align: center;
+    margin: 0px -25px;
+    border-bottom: #F1EAF8 1.5px solid;
+}
+
+.text-tab {
+    position: relative;
+    margin: -1.25px auto;
+    padding: 12px 0px;
+    max-width: fit-content;
+    color: #683FBF;
+    border-bottom: #683FBF 2px solid;
+}
+
+.title-container {
+    margin: 0px 0px 20px 0px;
+    font-size: 13px;
+}
+
+.form-content,
+.optionals-container,
+.gearbox-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 250px 0px 0px;
+    margin: 5px 0px;
+    font-size: 13px;
+}
+
+.form-content input{
+    display: inline-block;
+    width: 50%;
+    border: 0px solid;
+    border-bottom: #F1EAF8 1px solid;
+    padding: 8px 0px;
+    margin: 3px 0px 18px 0px;
+    font-size: 11px;
+}
+
+.form-content textarea{
+    display: inline-block;
+    width: 50%;
+    border: 1px solid #F1EAF8;
+    border-radius: 2px;
+    padding: 8px 10px;
+    margin: 3px 0px 18px 0px;
+}
+
+#purchase-date {
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.gear {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.selections-container {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px;
+}
+
+.left-optionals {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.right-optionals {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.button-container {
+    text-align: left;
+    margin: 10px 12px;
+}
+
+.button-container button {
+    background-color: #683FBF;
+    color: #fff;
+    margin-bottom: 25px;
+    border: 0px;
+    padding: 15px 40px;
+    font-size: 12px;
+}

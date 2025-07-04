@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #FFF;
+    color: #000;
+    font-size: 12px;
+}
+
+
+main {
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 35px;
+}
+
+/* Header */
+
+.container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 22px 0px 22px 13%;
+    border-top: 1.5px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    box-shadow: #DDDDDD 0px 0.5px 2px;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+/* Nav */
+
+#nav-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 8% 0px 0px;
+}
+
+#nav-container ul{
+    display: inline-flex;
+}
+
+#nav-container li {
+    list-style: none;
+    margin: 0px 8px;
+}
+
+#nav-container a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* Blog Posts */
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: inline-flex;
+    padding: 25px 6.5% 0px 13%; 
+}
+
+.posts-container {
+    margin-right: 50px;
+}
+
+/* Posts */
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 0px auto;
+}
+
+.posts-container h2 {
+    font-size: 28px;
+    color: #444545;
+    margin: 13px 0px;
+}
+
+.posts-container p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px 0px 12px;
+}
+
+.posts-container h6 {
+    font-size: 10px;
+    color: #585958;
+    margin: 0px 0px 15px;
+}
+
+.posts-container a {
+    text-decoration: none;
+    color: #585958;
+    font-size: 15px;
+}
+
+/* Aside Tags */
+
+.tags-container {
+    border: 1px solid #E3E3E3;
+    margin: 0px 0px 15px;
+    padding: 20px;
+}
+
+/* Setting h2 */
+
+.tags-container h2 {
+    font-size: 23px;
+    margin-bottom: 13px;
+}
+
+/* Buscar area */
+
+#input-area {
+    display: inline-flex;
+    justify-content: center;
+    margin: 13px 0px 0px;
+}
+
+#input-area input {
+    width: 200px;
+    border: 1px solid #E3E3E3;
+    padding: 2px 12px;
+
+    font-size: 11px;
+}
+
+#input-area button {
+    height: 30px;
+    border: none;
+    padding: 0px 15px;
+
+    background-color: #38ABF2;
+    color: #FFF;
+    font-size: 11px;
+}
+
+/* Categorias area */
+
+#categories-list li {
+    list-style: none;
+    margin-top: 16px;
+}
+
+#categories-list a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+/* Tags(buttons) area */
+
+.tag-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    padding: 9px 8px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #DDD;
+}
+
+.tag-button a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 60px auto;
+
+    text-align: center;
+    line-height: 20px;
+    text-transform: bold;
+}
+
+footer h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}

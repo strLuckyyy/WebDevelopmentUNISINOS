@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Register your vehicle at our store!</h2>
+    </div>
+
+    <div class="container">
+        <div class="top-container">
+            <p class="text-tab">FORM</p>
+        </div>
+        
+        <div class="title-container">
+            <h1>Sell your vehicle with us!</h1>
+            <p>Describe the features and choose the options your vehicle has</p>
+        </div>
+        
+        <form class="test">
+            <!-- Ad title -->
+            <div class="form-content">
+                <label for="title">Ad title <span style="color: red">*</span></label>
+                <input type="text" id="title" name="title" placeholder="Add the ad title:" required/>
+            </div>
+            
+            <!-- Ad price -->
+            <div class="form-content">
+                <label for="price">Ad price <span style="color: red">*</span></label>
+                <input type="number" id="price" name="price" placeholder="Add the car price:" required/>
+            </div>
+
+            <!-- Description -->
+            <div class="form-content">
+                <label for="description">Description <span style="color: red">*</span></label>
+                <textarea id="description" name="description" placeholder="Add the vehicle details:" required></textarea>
+            </div>
+
+            <!-- Vehicle brand -->
+            <div class="form-content">
+                <label for="brand">Vehicle brand</label>
+                <input type="text" id="brand" name="brand" placeholder="Add the vehicle brand:"/>
+            </div>
+
+            <!-- Vehicle model -->
+            <div class="form-content">
+                <label for="model">Vehicle model</label>
+                <input type="text" id="model" name="model" placeholder="Add the vehicle model:"/>
+            </div>
+
+            <!-- Vehicle mileage -->
+            <div class="form-content">
+                <label for="km-driven">Vehicle mileage <span style="color: red;">*</span></label>
+                <input type="number" id="km-driven" name="km-driven" placeholder="Add the vehicle mileage:" required/>
+            </div>
+
+            <!-- Vehicle purchase date -->
+            <div class="form-content">
+                <label for="purchase-date">Vehicle purchase date <span style="color: red;">*</span></label>
+                <input type="date" id="purchase-date" name="purchase-date" required/>
+            </div>
+
+            <!-- Gearbox type -->
+            <div class="gearbox-container">
+                <label for="gearbox">Gearbox type <span style="color: red;">*</span></label>
+                <div class="gear">
+                    <input type="radio" value="manual" name="gearbox" required/>
+                    <label for="manual">Manual</label>
+    
+                    <input type="radio" value="auto" name="gearbox" required/>
+                    <label for="auto">Automatic</label>
+                </div>
+            </div>
+
+            <!-- Optionals -->
+            <div class="optionals-container">
+                <label for="optionals">Optionals: </label>
+                <div class="selections-container">
+                    <div class="left-optionals">
+                        <div>
+                            <!-- AirBag -->
+                            <input type="checkbox" name="optionals[]" value="airbag">
+                            <label for="airbag">AirBag</label>
+                        </div>
+                        <div>
+                            <!-- Alarm -->
+                            <input type="checkbox" name="optionals[]" value="alarm">
+                            <label for="alarm">Alarm</label>
+                        </div>
+                        <div>
+                            <!-- Air Conditioning -->
+                            <input type="checkbox" name="optionals[]" value="air-conditioning">
+                            <label for="air-conditioning">Air Conditioning</label>
+                        </div>
+                        <div>
+                            <!-- Rear Camera -->
+                            <input type="checkbox" name="optionals[]" value="rear-camera">
+                            <label for="rear-camera">Rear Camera</label>
+                        </div>
+                    </div>
+
+                    <div class="right-optionals">
+                        <div>
+                            <!-- Lane Assist -->
+                            <input type="checkbox" name="optionals[]" value="lane-assist">
+                            <label for="lane-assist">Lane Assist</label>
+                        </div>
+                        <div>
+                            <!-- Keyless Start -->
+                            <input type="checkbox" name="optionals[]" value="keyless-start">
+                            <label for="keyless-start">Keyless Start</label>
+                        </div>
+                        <div>
+                            <!-- Smartphone Integration -->
+                            <input type="checkbox" name="optionals[]" value="smartphone-integration">
+                            <label for="smartphone-integration">Smartphone Integration</label>
+                        </div>
+                        <div>
+                            <!-- Leather Seats -->
+                            <input type="checkbox" name="optionals[]" value="leather-seats">
+                            <label for="leather-seats">Leather Seats</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Car Photos -->
+            <div class="form-content">
+                <label for="photos">Car Photos <span style="color: red;">*</span></label>
+                <input type="file" id="photos" name="photos" multiple required/>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="button-container">
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

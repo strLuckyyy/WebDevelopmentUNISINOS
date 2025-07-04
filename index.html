@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="js/components.js" defer></script>
+    <script type="module" src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Abrahao Francis Goncalves</h1>
+
+        <section class="profile">
+            <img src="img/profile.jpeg" alt="Profile Picture" class="profile-img">
+            <h2>Frontend Developer</h2>
+        </section>
+
+    </header>
+    <main>
+        <section id="info-section">
+            <article> <!-- Personal information -->
+                <h2 class="sub-title">About Me</h2>
+                <p>Hello! I'm Abrahao, a passionate frontend developer with a 
+                    love for creating beautiful and functional web applications. 
+                    I specialize in 
+                    <span class="bold">HTML</span>, 
+                    <span class="bold">CSS</span>, and 
+                    <span class="bold">JavaScript</span>. 
+                    I'm always eager to learn new technologies.</p>
+                <h3 class="sub-title">Skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                </ul>
+                <h3 class="sub-title">Learning</h3>
+                <ul>
+                    <li>React</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Content, projects -->
+        <section id="projects">
+            <h2 class="sub-title">Blogs</h2>
+            <div class="project-container">                
+                <figure class="project-view">
+                    <button type="button" class="project-view-button" value="guitar">
+                        <img src="img/miau_guitar.jpg" alt="Project 1">
+                    </button>
+                    <figcaption>
+                        <a href="/pages/Guitar/guitar.html" target="_blank">Guitar Blog</a>
+                        <p>A simple blog showcasing different types of guitars.</p>
+                        <p class="bold">HTML and CSS.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="project-view">
+                    <button type="button" class="project-view-button" value="acacia">
+                        <img src="img/img_cd1.bmp" alt="Project 2">
+                    </button>
+                    <figcaption>
+                        <a href="/pages/Acacia/index.html" target="_blank">The Acacia Strain</a>
+                        <p>A simple blog presenting The Acacia Strain CD.</p>
+                        <p class="bold">HTML and CSS.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="project-view">
+                    <button type="button" class="project-view-button" value="travel">
+                        <img src="img/img1.jpg" alt="Project 3">
+                    </button>
+                    <figcaption>
+                        <a href="/pages/Travel/index.html" target="_blank">Travel Blog</a>
+                        <p>A simple blog featuring various travel post options.</p>
+                        <p class="bold">HTML and CSS.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <h2 class="sub-title">Register Page</h2>
+            <div class="project-container">
+                <figure class="project-view">
+                    <button type="button" class="project-view-button" value="vehicle">
+                        <img src="img/form.png" alt="Project 4">
+                    </button>
+                    <figcaption>
+                        <a href="/pages/Register_Vehicle/index.html" target="_blank">Vehicle Register</a>
+                        <p>A simple form inspired by Google Forms.</p>
+                        <p class="bold">HTML and CSS</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-view">
+                    <button type="button" class="project-view-button" value="avatar">
+                        <img src="img/avatar.png" alt="Project 5">
+                    </button>
+                    <figcaption>
+                        <a a href="/pages/Avatar/index.html" target="_blank">Follow Page</a>
+                        <p>A simple page simulating a user profile.</p>
+                        <p class="bold">HTML and CSS.</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-view">
+                    <button type="button" class="project-view-button" value="insta">
+                        <img src="img/insta.png" alt="Project 6">
+                    </button>
+                    <figcaption>
+                        <a a href="/pages/Instagram/index.html" target="_blank">Instagram Clone Page</a>
+                        <p>A clone of an Instagram registration/login page.</p>
+                        <p class="bold">HTML and CSS.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <h2 class="sub-title">With JS</h2>
+            <div class="project-container">
+                <figure class="project-view">
+                    <button type="button" class="project-view-button" value="qr">
+                        <img src="img/qr.png" alt="Project 7">
+                    </button>
+                    <figcaption>
+                        <a href="/pages/QR_Generator/index.html" target="_blank">QR Code Creator</a>
+                        <p>A QR code generator using a user-provided URL.</p>
+                        <p>Using QRServer API</p>
+                        <p class="bold">HTML, CSS and JavaScript.</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-view">
+                    <button type="button" class="project-view-button" value="calc">
+                        <img src="img/calc.png" alt="Project 8">
+                    </button>
+                    <figcaption>
+                        <a href="/pages/Multiplication _Table/index.html" target="_blank">Multiplication Table Creator</a>
+                        <p>A simple multiplication table generator with custom number and range.</p>
+                        <p class="bold">HTML, CSS and JavaScript.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div id="contact">
+            <h2 class="sub-title">Contact Me:</h2>
+            <p class="bold">Phone: +55 (51) 99127-5566</p>
+            <p class="bold">Email: abrahaofcon@gmail.com</p>
+            
+            <div id="icons">
+               <a href="https://www.linkedin.com/in/abrahao-goncalves" target="_blank">
+                   <img src="img/linkedin.png" alt="LinkedIn Profile">
+               </a>
+
+               <a href="https://github.com/strLuckyyy" target="_blank">
+                   <img src="img/github.png" alt="Github Profile">
+               </a> 
+            </div>
+            
+        </div>
+        <h6>
+            All rights reserved &copy; 2025 Abrahao Francis Goncalves
+        </h6>
+
+    </footer>
+
+    <!-- modal -->
+    <div id="fade" class="hide"></div>
+
+    <div id="modal" class="hide">
+        <div class="modal-header">
+            <div class="modal-title"></div>
+            <button id="close-modal">Close</button>
+        </div>
+        <div class="modal-body"></div>
+    </div>
+</body>
+</html>

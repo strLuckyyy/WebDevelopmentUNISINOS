@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    padding: 3% 0% 0% 0%;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+h2 {
+    margin: 5% 10% 2% 10%;
+    padding: 2%;
+    border: 0.5px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    border-style: double;
+    text-align: center;
+}
+
+p {
+    margin: 1% 10% 0% 10%;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+a {
+    padding: 3px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+img {
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    border-radius: 12px;
+    height: 350px;
+}
+
+.text-block {
+    margin: 2% 7% 2% 7%;
+    padding: 0% 0% 3% 0%;
+    border: 5px solid #102158;
+    border-radius: 10px;
+}
+
+.guitar-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin: 2% 0% 0% 0%;
+    padding: 2% 0% 3% 0%;
+    border-top: 1px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    font-size: 8px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#block-top {
+    position: sticky;
+    top: 0px;
+    padding: 1px 20px 5px 20px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 10px;
+    background-color: #003cff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#name-top {
+    display:inline-flex;
+    margin: 0% 50% 1% 0%;
+    padding: 0.4% 0.4% 0.4% 0.4%;
+    border: 3px solid #ffffff;
+    border-radius: 12px;
+    font-size: large;
+}
+
+#img-logo {
+    margin: 0% 1% 0% 2%;
+    position: relative;
+    top: 20px;
+    height: 50px;
+}
